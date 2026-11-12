@@ -1,0 +1,67 @@
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: none;
+  padding-left: 19px;
+  padding-right: 22px;
+}
+
+.titulo-cafe {
+  margin-left: 46px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #111;
+}
+
+hr {
+  margin: 8px 0 10px 46px;
+  width: calc(100% - 46px);
+  border-top: 1px solid #d8d8d8;
+  opacity: 1;
+}
+
+.banner-cafe {
+  width: 90%;
+  height: 195px;
+  margin-left: 46px;
+  margin-top: 10px;
+  background-image: url('/banner-cafe.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tabla-cafes {
+  width: 66%;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #111;
+}
+
+.tabla-cafes thead th {
+  background-color: #343a40;
+  color: white;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-color: #343a40;
+}
+
+.tabla-cafes tbody th,
+.tabla-cafes tbody td {
+  padding: 8px 10px;
+  vertical-align: middle;
+}
+
+.totales-cafe {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 17px;
+  color: #111;
+}
